@@ -22,7 +22,7 @@
         <groupId>org.apache</groupId>
         <artifactId>apache</artifactId>
         <version>23</version>
-        <relativePath />
+        <relativePath/>
     </parent>
     <groupId>org.apache.sedona</groupId>
     <artifactId>sedona-parent</artifactId>
@@ -187,7 +187,7 @@
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-mapreduce-client-core</artifactId>
-            <version>2.8.2</version>
+            <version>2.10.0</version>
             <scope>${dependency.scope}</scope>
         </dependency>
         <dependency>
@@ -199,7 +199,7 @@
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-hdfs</artifactId>
-            <version>2.8.2</version>
+            <version>3.3.5</version>
             <scope>${dependency.scope}</scope>
             <exclusions>
                 <exclusion>
@@ -384,7 +384,7 @@
                         <configuration>
                             <transformers>
                                 <!--  use transformer to handle merge of META-INF/services - see http://java.net/jira/browse/JERSEY-440?focusedCommentId=14822&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#action_14822 -->
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
                                     <resource>reference.conf</resource>
                                 </transformer>
@@ -608,7 +608,7 @@
             <properties>
                 <scala.version>2.11.8</scala.version>
                 <scala.compat.version>2.11</scala.compat.version>
-                <scaladoc.arg />
+                <scaladoc.arg/>
             </properties>
             <modules>
                 <module>core</module>
