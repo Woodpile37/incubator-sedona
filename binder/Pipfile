@@ -5,7 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 pytest="*"
-notebook="==6.0.0"
+notebook="==6.4.12"
 jupyter="*"
 mkdocs="*"
 pytest-cov = "*"
@@ -13,7 +13,7 @@ pytest-cov = "*"
 [packages]
 pandas="*"
 geopandas="==0.6.0"
-pyspark="==3.1.2"
+pyspark="==3.2.2"
 attrs="*"
 ipykernel = "*"
 apache-sedona="==1.1.0"
