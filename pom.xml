@@ -83,7 +83,7 @@
         <scala.compat.version>2.12</scala.compat.version>
         <spark.version>3.5.0</spark.version>
         <spark.compat.version>3.0</spark.compat.version>
-        <log4j.version>2.21.0</log4j.version>
+        <log4j.version>2.21.1</log4j.version>
 
         <slf4j.version>1.7.36</slf4j.version>
         <googles2.version>2.0.0</googles2.version>
@@ -616,7 +616,7 @@
             <properties>
                 <spark.version>3.5.0</spark.version>
                 <spark.compat.version>3.0</spark.compat.version>
-                <log4j.version>2.21.0</log4j.version>
+                <log4j.version>2.21.1</log4j.version>
             </properties>
         </profile>
         <profile>
@@ -630,7 +630,7 @@
             <properties>
                 <spark.version>3.5.0</spark.version>
                 <spark.compat.version>3.4</spark.compat.version>
-                <log4j.version>2.21.0</log4j.version>
+                <log4j.version>2.21.1</log4j.version>
                 <!-- Skip deploying parent module for sedona-spark-3.0 profile, it will be deployed with sedona-spark-3.0 -->
                 <skip.deploy.common.modules>true</skip.deploy.common.modules>
             </properties>
